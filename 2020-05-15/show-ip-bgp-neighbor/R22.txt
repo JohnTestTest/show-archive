@@ -1,7 +1,7 @@
 BGP neighbor is 10.10.10.1,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.1
-  BGP state = Established, up for 00:38:49
-  Last read 00:00:03, last write 00:00:03, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:41:29
+  Last read 00:00:01, last write 00:00:07, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -21,9 +21,9 @@ BGP neighbor is 10.10.10.1,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           245        244
+    Keepalives:           261        261
     Route Refresh:          0          0
-    Total:                247        246
+    Total:                263        263
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -71,19 +71,19 @@ Foreign host: 10.10.10.1, Foreign port: 28907
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x2841B0):
+Event Timers (current time is 0x2AB0EF):
 Timer          Starts    Wakeups            Next
-Retrans           248          1             0x0
+Retrans           264          1             0x0
 TimeWait            0          0             0x0
-AckHold           246        242             0x0
+AckHold           263        259             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
 PmtuAger            0          0             0x0
 DeadWait            0          0             0x0
 
-iss:  133263275  snduna:  133268011  sndnxt:  133268011     sndwnd:  16042
-irs: 2547859513  rcvnxt: 2547864230  rcvwnd:      16061  delrcvwnd:    323
+iss:  133263275  snduna:  133268315  sndnxt:  133268315     sndwnd:  15738
+irs: 2547859513  rcvnxt: 2547864553  rcvwnd:      15738  delrcvwnd:    646
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 2 ms, maxRTT: 300 ms, ACK hold: 200 ms
@@ -91,14 +91,14 @@ Flags: passive open, retransmission timeout, nagle, path mtu capable
   gen tcbs, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 495 (out of order: 0), with data: 246, total data bytes: 4716
-Sent: 494 (retransmit: 1), with data: 247, total data bytes: 4735
+Rcvd: 528 (out of order: 0), with data: 263, total data bytes: 5039
+Sent: 527 (retransmit: 1), with data: 263, total data bytes: 5039
 
 
 BGP neighbor is 10.10.10.2,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.2
-  BGP state = Established, up for 00:38:29
-  Last read 00:00:05, last write 00:00:03, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:41:08
+  Last read 00:00:04, last write 00:00:07, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -118,9 +118,9 @@ BGP neighbor is 10.10.10.2,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           242        243
+    Keepalives:           258        260
     Route Refresh:          0          0
-    Total:                244        245
+    Total:                260        262
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -168,19 +168,19 @@ Foreign host: 10.10.10.2, Foreign port: 62850
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x2841B1):
+Event Timers (current time is 0x2AB0EF):
 Timer          Starts    Wakeups            Next
-Retrans           244          0             0x0
+Retrans           260          0             0x0
 TimeWait            0          0             0x0
-AckHold           245        241             0x0
+AckHold           262        258             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
 PmtuAger            0          0             0x0
 DeadWait            0          0             0x0
 
-iss: 3644055768  snduna: 3644060447  sndnxt: 3644060447     sndwnd:  16099
-irs: 4091305215  rcvnxt: 4091309913  rcvwnd:      16080  delrcvwnd:    304
+iss: 3644055768  snduna: 3644060751  sndnxt: 3644060751     sndwnd:  15795
+irs: 4091305215  rcvnxt: 4091310236  rcvwnd:      15757  delrcvwnd:    627
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 3 ms, maxRTT: 300 ms, ACK hold: 200 ms
@@ -188,14 +188,14 @@ Flags: passive open, retransmission timeout, nagle, path mtu capable
   gen tcbs, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 489 (out of order: 0), with data: 245, total data bytes: 4697
-Sent: 489 (retransmit: 0), with data: 244, total data bytes: 4678
+Rcvd: 522 (out of order: 0), with data: 262, total data bytes: 5020
+Sent: 522 (retransmit: 0), with data: 260, total data bytes: 4982
 
 
 BGP neighbor is 10.10.10.3,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.3
-  BGP state = Established, up for 00:38:30
-  Last read 00:00:06, last write 00:00:00, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:41:09
+  Last read 00:00:02, last write 00:00:08, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -215,9 +215,9 @@ BGP neighbor is 10.10.10.3,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           244        241
+    Keepalives:           260        258
     Route Refresh:          0          0
-    Total:                246        243
+    Total:                262        260
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -265,19 +265,19 @@ Foreign host: 10.10.10.3, Foreign port: 47338
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x2841B3):
+Event Timers (current time is 0x2AB0F4):
 Timer          Starts    Wakeups            Next
-Retrans           247          1             0x0
+Retrans           263          1             0x0
 TimeWait            0          0             0x0
-AckHold           243        239             0x0
+AckHold           260        256             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
 PmtuAger            0          0             0x0
 DeadWait            0          0             0x0
 
-iss: 3318487073  snduna: 3318491790  sndnxt: 3318491790     sndwnd:  16061
-irs: 3649718003  rcvnxt: 3649722663  rcvwnd:      16118  delrcvwnd:    266
+iss: 3318487073  snduna: 3318492094  sndnxt: 3318492094     sndwnd:  15757
+irs: 3649718003  rcvnxt: 3649722986  rcvwnd:      15795  delrcvwnd:    589
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 2 ms, maxRTT: 300 ms, ACK hold: 200 ms
@@ -285,8 +285,8 @@ Flags: passive open, retransmission timeout, nagle, path mtu capable
   gen tcbs, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 490 (out of order: 0), with data: 243, total data bytes: 4659
-Sent: 489 (retransmit: 1), with data: 246, total data bytes: 4716
+Rcvd: 523 (out of order: 0), with data: 260, total data bytes: 4982
+Sent: 522 (retransmit: 1), with data: 262, total data bytes: 5020
 
 
 BGP neighbor is 10.10.10.4,  remote AS 65001, internal link
@@ -339,8 +339,8 @@ BGP neighbor is 10.10.10.4,  remote AS 65001, internal link
 
 BGP neighbor is 10.10.10.5,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.5
-  BGP state = Established, up for 00:38:30
-  Last read 00:00:07, last write 00:00:01, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:41:09
+  Last read 00:00:04, last write 00:00:04, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -360,9 +360,9 @@ BGP neighbor is 10.10.10.5,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           245        242
+    Keepalives:           261        259
     Route Refresh:          0          0
-    Total:                247        244
+    Total:                263        261
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -410,19 +410,19 @@ Foreign host: 10.10.10.5, Foreign port: 14502
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x284310):
+Event Timers (current time is 0x2AB100):
 Timer          Starts    Wakeups            Next
-Retrans           247          0             0x0
+Retrans           268          5             0x0
 TimeWait            0          0             0x0
-AckHold           244        240             0x0
+AckHold           261        257             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
 PmtuAger            0          0             0x0
 DeadWait            0          0             0x0
 
-iss: 3514016320  snduna: 3514021056  sndnxt: 3514021056     sndwnd:  16042
-irs: 1722452920  rcvnxt: 1722457599  rcvwnd:      16099  delrcvwnd:    285
+iss: 3514016320  snduna: 3514021360  sndnxt: 3514021360     sndwnd:  15738
+irs: 1722452920  rcvnxt: 1722457922  rcvwnd:      15776  delrcvwnd:    608
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 1 ms, maxRTT: 355 ms, ACK hold: 200 ms
@@ -430,14 +430,14 @@ Flags: passive open, retransmission timeout, nagle, path mtu capable
   gen tcbs, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 491 (out of order: 0), with data: 244, total data bytes: 4678
-Sent: 491 (retransmit: 0), with data: 247, total data bytes: 4735
+Rcvd: 524 (out of order: 0), with data: 261, total data bytes: 5001
+Sent: 524 (retransmit: 5), with data: 263, total data bytes: 5039
 
 
 BGP neighbor is 10.10.10.6,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.6
-  BGP state = Established, up for 00:38:29
-  Last read 00:00:05, last write 00:00:01, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:41:08
+  Last read 00:00:05, last write 00:00:07, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -457,9 +457,9 @@ BGP neighbor is 10.10.10.6,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           242        243
+    Keepalives:           258        260
     Route Refresh:          0          0
-    Total:                244        245
+    Total:                260        262
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -507,19 +507,19 @@ Foreign host: 10.10.10.6, Foreign port: 19910
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x284310):
+Event Timers (current time is 0x2AB100):
 Timer          Starts    Wakeups            Next
-Retrans           244          0             0x0
+Retrans           260          0             0x0
 TimeWait            0          0             0x0
-AckHold           245        239             0x0
+AckHold           262        256             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
 PmtuAger            0          0             0x0
 DeadWait            0          0             0x0
 
-iss: 2152417032  snduna: 2152421711  sndnxt: 2152421711     sndwnd:  16099
-irs: 1550570010  rcvnxt: 1550574708  rcvwnd:      16080  delrcvwnd:    304
+iss: 2152417032  snduna: 2152422015  sndnxt: 2152422015     sndwnd:  15795
+irs: 1550570010  rcvnxt: 1550575031  rcvwnd:      15757  delrcvwnd:    627
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 2 ms, maxRTT: 300 ms, ACK hold: 200 ms
@@ -527,44 +527,24 @@ Flags: passive open, retransmission timeout, nagle, path mtu capable
   gen tcbs, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 468 (out of order: 0), with data: 245, total data bytes: 4697
-Sent: 487 (retransmit: 0), with data: 244, total data bytes: 4678
+Rcvd: 501 (out of order: 0), with data: 262, total data bytes: 5020
+Sent: 520 (retransmit: 0), with data: 260, total data bytes: 4982
 
 
 BGP neighbor is 10.10.10.7,  remote AS 65001, internal link
-  BGP version 4, remote router ID 10.10.10.7
-  BGP state = Established, up for 00:38:22
-  Last read 00:00:00, last write 00:00:04, hold time is 30, keepalive interval is 10 seconds
+  BGP version 4, remote router ID 0.0.0.0
+  BGP state = Idle
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
-    1 active, is not multisession capable (disabled)
-  Neighbor capabilities:
-    Route refresh: advertised and received(new)
-    Four-octets ASN Capability: advertised and received
-    Address family IPv4 Unicast: advertised and received
-    Enhanced Refresh Capability: advertised and received
-    Multisession Capability:
-    Stateful switchover support enabled: NO for session 1
-  Message statistics:
-    InQ depth is 0
-    OutQ depth is 0
-
-                         Sent       Rcvd
-    Opens:                  1          1
-    Notifications:          0          0
-    Updates:                1          1
-    Keepalives:           241        242
-    Route Refresh:          0          0
-    Total:                243        244
+    0 active, is not multisession capable (disabled)
+    Stateful switchover support enabled: NO
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
-  Session: 10.10.10.7
   BGP table version 1, neighbor version 1/0
   Output queue size : 0
-  Index 1, Advertise bit 0
-  1 update-group member
+  Index 0, Advertise bit 0
   Slow-peer detection is disabled
   Slow-peer split-update-group dynamic is disabled
                                  Sent       Rcvd
@@ -592,46 +572,17 @@ BGP neighbor is 10.10.10.7,  remote AS 65001, internal link
 	  Refresh Start-of-RIB          0          0
 	  Refresh End-of-RIB            0          0
 
-  Address tracking is enabled, the RIB does have a route to 10.10.10.7
-  Connections established 1; dropped 0
-  Last reset never
+  Address tracking is enabled, the RIB does not have a route to 10.10.10.7
+  Connections established 1; dropped 1
+  Last reset 00:00:04, due to Active open failed
   Transport(tcp) path-mtu-discovery is enabled
   Graceful-Restart is disabled
-Connection state is ESTAB, I/O status: 1, unread input bytes: 0
-Mininum incoming TTL 0, Outgoing TTL 255
-Local host: 10.10.10.22, Local port: 179
-Foreign host: 10.10.10.7, Foreign port: 29036
-
-Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
-
-Event Timers (current time is 0x284311):
-Timer          Starts    Wakeups            Next
-Retrans           243          0             0x0
-TimeWait            0          0             0x0
-AckHold           244        240             0x0
-SendWnd             0          0             0x0
-KeepAlive           0          0             0x0
-GiveUp              0          0             0x0
-PmtuAger            0          0             0x0
-DeadWait            0          0             0x0
-
-iss: 1364516494  snduna: 1364521154  sndnxt: 1364521154     sndwnd:  16118
-irs: 4265374322  rcvnxt: 4265379001  rcvwnd:      16099  delrcvwnd:    285
-
-SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
-minRTT: 0 ms, maxRTT: 300 ms, ACK hold: 200 ms
-Flags: passive open, retransmission timeout, nagle, path mtu capable
-  gen tcbs, md5
-
-Datagrams (max data segment is 1460 bytes):
-Rcvd: 458 (out of order: 0), with data: 244, total data bytes: 4678
-Sent: 487 (retransmit: 0), with data: 243, total data bytes: 4659
-
+  No active TCP connection
 
 BGP neighbor is 10.10.10.8,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.8
-  BGP state = Established, up for 00:38:32
-  Last read 00:00:02, last write 00:00:03, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:41:11
+  Last read 00:00:01, last write 00:00:06, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -651,9 +602,9 @@ BGP neighbor is 10.10.10.8,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           244        244
+    Keepalives:           260        261
     Route Refresh:          0          0
-    Total:                246        246
+    Total:                262        263
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -701,19 +652,19 @@ Foreign host: 10.10.10.8, Foreign port: 29175
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x284311):
+Event Timers (current time is 0x2AB359):
 Timer          Starts    Wakeups            Next
-Retrans           246          0             0x0
+Retrans           262          0             0x0
 TimeWait            0          0             0x0
-AckHold           246        223             0x0
+AckHold           263        240             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
 PmtuAger            0          0             0x0
 DeadWait            0          0             0x0
 
-iss: 2124958050  snduna: 2124962767  sndnxt: 2124962767     sndwnd:  16061
-irs: 1000311211  rcvnxt: 1000315928  rcvwnd:      16061  delrcvwnd:    323
+iss: 2124958050  snduna: 2124963071  sndnxt: 2124963071     sndwnd:  15757
+irs: 1000311211  rcvnxt: 1000316251  rcvwnd:      15738  delrcvwnd:    646
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 4 ms, maxRTT: 300 ms, ACK hold: 200 ms
@@ -721,14 +672,14 @@ Flags: passive open, retransmission timeout, nagle, path mtu capable
   gen tcbs, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 477 (out of order: 0), with data: 246, total data bytes: 4716
-Sent: 473 (retransmit: 0), with data: 246, total data bytes: 4716
+Rcvd: 508 (out of order: 0), with data: 263, total data bytes: 5039
+Sent: 506 (retransmit: 0), with data: 262, total data bytes: 5020
 
 
 BGP neighbor is 10.10.10.9,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.9
-  BGP state = Established, up for 00:38:50
-  Last read 00:00:03, last write 00:00:04, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:41:30
+  Last read 00:00:03, last write 00:00:07, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -748,9 +699,9 @@ BGP neighbor is 10.10.10.9,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           246        244
+    Keepalives:           263        261
     Route Refresh:          0          0
-    Total:                248        246
+    Total:                265        263
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -798,33 +749,33 @@ Foreign host: 10.10.10.9, Foreign port: 179
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x284352):
+Event Timers (current time is 0x2AB359):
 Timer          Starts    Wakeups            Next
-Retrans           252          3             0x0
+Retrans           269          3             0x0
 TimeWait            0          0             0x0
-AckHold           245        241             0x0
+AckHold           262        258             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
-PmtuAger         5671       5670        0x28445E
+PmtuAger         6195       6194        0x2AB3E8
 DeadWait            0          0             0x0
 
-iss:  183854857  snduna:  183859612  sndnxt:  183859612     sndwnd:  16023
-irs: 3566254339  rcvnxt: 3566259056  rcvwnd:      16061  delrcvwnd:    323
+iss:  183854857  snduna:  183859935  sndnxt:  183859935     sndwnd:  15700
+irs: 3566254339  rcvnxt: 3566259379  rcvwnd:      15738  delrcvwnd:    646
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 2 ms, maxRTT: 300 ms, ACK hold: 200 ms
 Flags: higher precedence, nagle, path mtu capable, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 495 (out of order: 0), with data: 246, total data bytes: 4716
-Sent: 494 (retransmit: 3), with data: 248, total data bytes: 4754
+Rcvd: 529 (out of order: 0), with data: 263, total data bytes: 5039
+Sent: 528 (retransmit: 3), with data: 265, total data bytes: 5077
 
 
 BGP neighbor is 10.10.10.10,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.10
-  BGP state = Established, up for 00:38:45
-  Last read 00:00:01, last write 00:00:07, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:41:24
+  Last read 00:00:04, last write 00:00:05, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -844,9 +795,9 @@ BGP neighbor is 10.10.10.10,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           243        244
+    Keepalives:           260        260
     Route Refresh:          0          0
-    Total:                245        246
+    Total:                262        262
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -894,19 +845,19 @@ Foreign host: 10.10.10.10, Foreign port: 20097
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x284355):
+Event Timers (current time is 0x2AB35A):
 Timer          Starts    Wakeups            Next
-Retrans           245          0             0x0
+Retrans           267          5             0x0
 TimeWait            0          0             0x0
-AckHold           246        219             0x0
+AckHold           262        230             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
 PmtuAger            0          0             0x0
 DeadWait            0          0             0x0
 
-iss: 2690263049  snduna: 2690267747  sndnxt: 2690267747     sndwnd:  16080
-irs:  230342670  rcvnxt:  230347387  rcvwnd:      16061  delrcvwnd:    323
+iss: 2690263049  snduna: 2690268070  sndnxt: 2690268070     sndwnd:  15757
+irs:  230342670  rcvnxt:  230347691  rcvwnd:      15757  delrcvwnd:    627
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 4 ms, maxRTT: 300 ms, ACK hold: 200 ms
@@ -914,14 +865,14 @@ Flags: passive open, retransmission timeout, nagle, path mtu capable
   gen tcbs, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 491 (out of order: 0), with data: 246, total data bytes: 4716
-Sent: 468 (retransmit: 0), with data: 245, total data bytes: 4697
+Rcvd: 524 (out of order: 0), with data: 262, total data bytes: 5020
+Sent: 496 (retransmit: 5), with data: 262, total data bytes: 5020
 
 
 BGP neighbor is 10.10.10.11,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.11
-  BGP state = Established, up for 00:38:51
-  Last read 00:00:06, last write 00:00:06, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:41:30
+  Last read 00:00:08, last write 00:00:03, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -941,9 +892,9 @@ BGP neighbor is 10.10.10.11,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           243        244
+    Keepalives:           260        260
     Route Refresh:          0          0
-    Total:                245        246
+    Total:                262        262
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -991,33 +942,33 @@ Foreign host: 10.10.10.11, Foreign port: 179
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x28436E):
+Event Timers (current time is 0x2AB35B):
 Timer          Starts    Wakeups            Next
-Retrans           249          3             0x0
+Retrans           268          5             0x0
 TimeWait            0          0             0x0
-AckHold           245        241             0x0
+AckHold           261        257             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
-PmtuAger         5685       5684        0x284479
+PmtuAger         6187       6186        0x2AB3CA
 DeadWait            0          0             0x0
 
-iss: 2593872043  snduna: 2593876741  sndnxt: 2593876741     sndwnd:  16080
-irs: 4184709480  rcvnxt: 4184714197  rcvwnd:      16061  delrcvwnd:    323
+iss: 2593872043  snduna: 2593877064  sndnxt: 2593877064     sndwnd:  15757
+irs: 4184709480  rcvnxt: 4184714501  rcvwnd:      15757  delrcvwnd:    627
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 1 ms, maxRTT: 300 ms, ACK hold: 200 ms
 Flags: higher precedence, nagle, path mtu capable, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 491 (out of order: 0), with data: 246, total data bytes: 4716
-Sent: 491 (retransmit: 3), with data: 245, total data bytes: 4697
+Rcvd: 524 (out of order: 0), with data: 262, total data bytes: 5020
+Sent: 524 (retransmit: 5), with data: 262, total data bytes: 5020
 
 
 BGP neighbor is 10.10.10.12,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.12
-  BGP state = Established, up for 00:38:54
-  Last read 00:00:00, last write 00:00:00, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:41:33
+  Last read 00:00:03, last write 00:00:08, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -1037,9 +988,9 @@ BGP neighbor is 10.10.10.12,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           246        244
+    Keepalives:           262        260
     Route Refresh:          0          0
-    Total:                248        246
+    Total:                264        262
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -1087,33 +1038,33 @@ Foreign host: 10.10.10.12, Foreign port: 179
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x28436F):
+Event Timers (current time is 0x2AB35D):
 Timer          Starts    Wakeups            Next
-Retrans           252          3             0x0
+Retrans           268          3             0x0
 TimeWait            0          0             0x0
-AckHold           245        237             0x0
+AckHold           261        253             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
-PmtuAger         5695       5694        0x28445E
+PmtuAger         6219       6218        0x2AB3E8
 DeadWait            0          0             0x0
 
-iss:  202516528  snduna:  202521283  sndnxt:  202521283     sndwnd:  16023
-irs: 3576443498  rcvnxt: 3576448215  rcvwnd:      16061  delrcvwnd:    323
+iss:  202516528  snduna:  202521587  sndnxt:  202521587     sndwnd:  15719
+irs: 3576443498  rcvnxt: 3576448519  rcvwnd:      15757  delrcvwnd:    627
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 3 ms, maxRTT: 300 ms, ACK hold: 200 ms
 Flags: higher precedence, nagle, path mtu capable, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 494 (out of order: 0), with data: 246, total data bytes: 4716
-Sent: 490 (retransmit: 3), with data: 248, total data bytes: 4754
+Rcvd: 526 (out of order: 0), with data: 262, total data bytes: 5020
+Sent: 522 (retransmit: 3), with data: 264, total data bytes: 5058
 
 
 BGP neighbor is 10.10.10.13,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.13
-  BGP state = Established, up for 00:38:52
-  Last read 00:00:07, last write 00:00:07, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:41:31
+  Last read 00:00:04, last write 00:00:03, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -1133,9 +1084,9 @@ BGP neighbor is 10.10.10.13,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           245        243
+    Keepalives:           262        260
     Route Refresh:          0          0
-    Total:                247        245
+    Total:                264        262
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -1183,33 +1134,33 @@ Foreign host: 10.10.10.13, Foreign port: 179
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x28438E):
+Event Timers (current time is 0x2AB35E):
 Timer          Starts    Wakeups            Next
-Retrans           251          3             0x0
+Retrans           271          6             0x0
 TimeWait            0          0             0x0
-AckHold           244        233             0x0
+AckHold           261        250             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
-PmtuAger         5688       5687        0x28445E
+PmtuAger         6180       6179        0x2AB3BD
 DeadWait            0          0             0x0
 
-iss:  700244484  snduna:  700249220  sndnxt:  700249220     sndwnd:  16042
-irs:  620197484  rcvnxt:  620202182  rcvwnd:      16080  delrcvwnd:    304
+iss:  700244484  snduna:  700249543  sndnxt:  700249543     sndwnd:  15719
+irs:  620197484  rcvnxt:  620202505  rcvwnd:      15757  delrcvwnd:    627
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 1 ms, maxRTT: 300 ms, ACK hold: 200 ms
 Flags: higher precedence, nagle, path mtu capable, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 492 (out of order: 0), with data: 245, total data bytes: 4697
-Sent: 485 (retransmit: 3), with data: 247, total data bytes: 4735
+Rcvd: 526 (out of order: 0), with data: 262, total data bytes: 5020
+Sent: 519 (retransmit: 6), with data: 264, total data bytes: 5058
 
 
 BGP neighbor is 10.10.10.14,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.14
-  BGP state = Established, up for 00:38:56
-  Last read 00:00:07, last write 00:00:09, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:41:35
+  Last read 00:00:06, last write 00:00:04, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -1229,9 +1180,9 @@ BGP neighbor is 10.10.10.14,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           246        245
+    Keepalives:           263        262
     Route Refresh:          0          0
-    Total:                248        247
+    Total:                265        264
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -1279,33 +1230,33 @@ Foreign host: 10.10.10.14, Foreign port: 179
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x28438E):
+Event Timers (current time is 0x2AB360):
 Timer          Starts    Wakeups            Next
-Retrans           251          2             0x0
+Retrans           268          2             0x0
 TimeWait            0          0             0x0
-AckHold           247        243             0x0
+AckHold           264        260             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
-PmtuAger         5654       5653        0x28445E
+PmtuAger         6178       6177        0x2AB3E8
 DeadWait            0          0             0x0
 
-iss: 3888960682  snduna: 3888965437  sndnxt: 3888965437     sndwnd:  16023
-irs: 1969219571  rcvnxt: 1969224307  rcvwnd:      16042  delrcvwnd:    342
+iss: 3888960682  snduna: 3888965760  sndnxt: 3888965760     sndwnd:  15700
+irs: 1969219571  rcvnxt: 1969224630  rcvwnd:      15719  delrcvwnd:    665
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 2 ms, maxRTT: 366 ms, ACK hold: 200 ms
 Flags: higher precedence, nagle, path mtu capable, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 495 (out of order: 0), with data: 247, total data bytes: 4735
-Sent: 496 (retransmit: 2), with data: 248, total data bytes: 4754
+Rcvd: 529 (out of order: 0), with data: 264, total data bytes: 5058
+Sent: 530 (retransmit: 2), with data: 265, total data bytes: 5077
 
 
 BGP neighbor is 10.10.10.15,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.15
-  BGP state = Established, up for 00:38:52
-  Last read 00:00:03, last write 00:00:07, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:41:32
+  Last read 00:00:06, last write 00:00:04, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -1325,9 +1276,9 @@ BGP neighbor is 10.10.10.15,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           245        243
+    Keepalives:           262        259
     Route Refresh:          0          0
-    Total:                247        245
+    Total:                264        261
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -1375,33 +1326,33 @@ Foreign host: 10.10.10.15, Foreign port: 179
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x28438F):
+Event Timers (current time is 0x2AB360):
 Timer          Starts    Wakeups            Next
-Retrans           250          2             0x0
+Retrans           271          6             0x0
 TimeWait            0          0             0x0
-AckHold           244        239             0x0
+AckHold           260        255             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
-PmtuAger         5691       5690        0x284479
+PmtuAger         6174       6173        0x2AB39E
 DeadWait            0          0             0x0
 
-iss:  311739568  snduna:  311744304  sndnxt:  311744304     sndwnd:  16042
-irs: 2042745798  rcvnxt: 2042750496  rcvwnd:      16080  delrcvwnd:    304
+iss:  311739568  snduna:  311744627  sndnxt:  311744627     sndwnd:  15719
+irs: 2042745798  rcvnxt: 2042750800  rcvwnd:      15776  delrcvwnd:    608
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 4 ms, maxRTT: 300 ms, ACK hold: 200 ms
 Flags: higher precedence, nagle, path mtu capable, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 492 (out of order: 0), with data: 245, total data bytes: 4697
-Sent: 491 (retransmit: 2), with data: 247, total data bytes: 4735
+Rcvd: 525 (out of order: 0), with data: 261, total data bytes: 5001
+Sent: 524 (retransmit: 6), with data: 264, total data bytes: 5058
 
 
 BGP neighbor is 10.10.10.16,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.16
-  BGP state = Established, up for 00:38:54
-  Last read 00:00:04, last write 00:00:03, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:41:34
+  Last read 00:00:00, last write 00:00:02, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -1421,9 +1372,9 @@ BGP neighbor is 10.10.10.16,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           244        244
+    Keepalives:           261        261
     Route Refresh:          0          0
-    Total:                246        246
+    Total:                263        263
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -1471,33 +1422,33 @@ Foreign host: 10.10.10.16, Foreign port: 179
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x28439C):
+Event Timers (current time is 0x2AB363):
 Timer          Starts    Wakeups            Next
-Retrans           247          0             0x0
+Retrans           264          0             0x0
 TimeWait            0          0             0x0
-AckHold           245        241             0x0
+AckHold           262        257        0x2AB375
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
-PmtuAger         5697       5696        0x28445E
+PmtuAger         6221       6220        0x2AB3E8
 DeadWait            0          0             0x0
 
-iss: 3532662983  snduna: 3532667700  sndnxt: 3532667700     sndwnd:  16061
-irs: 3187736325  rcvnxt: 3187741042  rcvwnd:      16061  delrcvwnd:    323
+iss: 3532662983  snduna: 3532668023  sndnxt: 3532668023     sndwnd:  15738
+irs: 3187736325  rcvnxt: 3187741365  rcvwnd:      15738  delrcvwnd:    646
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 0 ms, maxRTT: 300 ms, ACK hold: 200 ms
 Flags: higher precedence, nagle, path mtu capable, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 469 (out of order: 0), with data: 246, total data bytes: 4716
-Sent: 492 (retransmit: 0), with data: 246, total data bytes: 4716
+Rcvd: 503 (out of order: 0), with data: 263, total data bytes: 5039
+Sent: 525 (retransmit: 0), with data: 263, total data bytes: 5039
 
 
 BGP neighbor is 10.10.10.17,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.17
-  BGP state = Established, up for 00:38:54
-  Last read 00:00:08, last write 00:00:05, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:41:34
+  Last read 00:00:02, last write 00:00:00, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -1517,9 +1468,9 @@ BGP neighbor is 10.10.10.17,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           245        244
+    Keepalives:           262        261
     Route Refresh:          0          0
-    Total:                247        246
+    Total:                264        263
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -1567,33 +1518,33 @@ Foreign host: 10.10.10.17, Foreign port: 179
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x28439C):
+Event Timers (current time is 0x2AB363):
 Timer          Starts    Wakeups            Next
-Retrans           249          1             0x0
+Retrans           266          1             0x0
 TimeWait            0          0             0x0
-AckHold           244        236             0x0
+AckHold           261        253             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
-PmtuAger         5698       5697        0x284479
+PmtuAger         6222       6221        0x2AB3E8
 DeadWait            0          0             0x0
 
-iss: 3178235376  snduna: 3178240112  sndnxt: 3178240112     sndwnd:  16042
-irs: 2450605720  rcvnxt: 2450610437  rcvwnd:      16061  delrcvwnd:    323
+iss: 3178235376  snduna: 3178240435  sndnxt: 3178240435     sndwnd:  15719
+irs: 2450605720  rcvnxt: 2450610760  rcvwnd:      15738  delrcvwnd:    646
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 5 ms, maxRTT: 300 ms, ACK hold: 200 ms
 Flags: higher precedence, nagle, path mtu capable, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 470 (out of order: 0), with data: 246, total data bytes: 4716
-Sent: 488 (retransmit: 1), with data: 247, total data bytes: 4735
+Rcvd: 504 (out of order: 0), with data: 263, total data bytes: 5039
+Sent: 522 (retransmit: 1), with data: 264, total data bytes: 5058
 
 
 BGP neighbor is 10.10.10.18,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.18
-  BGP state = Established, up for 00:38:55
-  Last read 00:00:06, last write 00:00:03, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:41:35
+  Last read 00:00:05, last write 00:00:04, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -1613,9 +1564,9 @@ BGP neighbor is 10.10.10.18,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           243        246
+    Keepalives:           260        263
     Route Refresh:          0          0
-    Total:                245        248
+    Total:                262        265
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -1663,33 +1614,33 @@ Foreign host: 10.10.10.18, Foreign port: 179
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x2843B1):
+Event Timers (current time is 0x2AB367):
 Timer          Starts    Wakeups            Next
-Retrans           246          0             0x0
+Retrans           263          0             0x0
 TimeWait            0          0             0x0
-AckHold           247        233             0x0
+AckHold           264        250             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
-PmtuAger         5701       5700        0x284479
+PmtuAger         6225       6224        0x2AB3E8
 DeadWait            0          0             0x0
 
-iss: 3496245551  snduna: 3496250249  sndnxt: 3496250249     sndwnd:  16080
-irs: 2352115184  rcvnxt: 2352119939  rcvwnd:      16023  delrcvwnd:    361
+iss: 3496245551  snduna: 3496250572  sndnxt: 3496250572     sndwnd:  15757
+irs: 2352115184  rcvnxt: 2352120262  rcvwnd:      15700  delrcvwnd:    684
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 1 ms, maxRTT: 300 ms, ACK hold: 200 ms
 Flags: higher precedence, nagle, path mtu capable, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 476 (out of order: 0), with data: 248, total data bytes: 4754
-Sent: 483 (retransmit: 0), with data: 245, total data bytes: 4697
+Rcvd: 510 (out of order: 0), with data: 265, total data bytes: 5077
+Sent: 517 (retransmit: 0), with data: 262, total data bytes: 5020
 
 
 BGP neighbor is 10.10.10.19,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.19
-  BGP state = Established, up for 00:38:53
-  Last read 00:00:06, last write 00:00:00, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:41:33
+  Last read 00:00:01, last write 00:00:04, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -1709,9 +1660,9 @@ BGP neighbor is 10.10.10.19,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           248        245
+    Keepalives:           265        262
     Route Refresh:          0          0
-    Total:                250        247
+    Total:                267        264
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -1759,33 +1710,33 @@ Foreign host: 10.10.10.19, Foreign port: 179
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x2843B2):
+Event Timers (current time is 0x2AB368):
 Timer          Starts    Wakeups            Next
-Retrans           253          2             0x0
+Retrans           274          6             0x0
 TimeWait            0          0             0x0
-AckHold           246        232             0x0
+AckHold           263        249             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
-PmtuAger         5677       5676        0x28442C
+PmtuAger         6161       6160        0x2AB485
 DeadWait            0          0             0x0
 
-iss:  152887326  snduna:  152892119  sndnxt:  152892119     sndwnd:  15985
-irs: 2545976290  rcvnxt: 2545981026  rcvwnd:      16042  delrcvwnd:    342
+iss:  152887326  snduna:  152892442  sndnxt:  152892442     sndwnd:  15662
+irs: 2545976290  rcvnxt: 2545981349  rcvwnd:      15719  delrcvwnd:    665
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 3 ms, maxRTT: 300 ms, ACK hold: 200 ms
 Flags: higher precedence, nagle, path mtu capable, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 492 (out of order: 0), with data: 247, total data bytes: 4735
-Sent: 487 (retransmit: 2), with data: 250, total data bytes: 4792
+Rcvd: 526 (out of order: 0), with data: 264, total data bytes: 5058
+Sent: 521 (retransmit: 6), with data: 267, total data bytes: 5115
 
 
 BGP neighbor is 10.10.10.20,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.20
-  BGP state = Established, up for 00:38:50
-  Last read 00:00:02, last write 00:00:07, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:41:30
+  Last read 00:00:05, last write 00:00:09, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -1805,9 +1756,9 @@ BGP neighbor is 10.10.10.20,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           245        245
+    Keepalives:           262        261
     Route Refresh:          0          0
-    Total:                247        247
+    Total:                264        263
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -1855,33 +1806,33 @@ Foreign host: 10.10.10.20, Foreign port: 179
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x2843DC):
+Event Timers (current time is 0x2AB36A):
 Timer          Starts    Wakeups            Next
-Retrans           248          0             0x0
+Retrans           265          0             0x0
 TimeWait            0          0             0x0
-AckHold           246        242             0x0
+AckHold           262        258             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
-PmtuAger         5684       5683        0x284479
+PmtuAger         6208       6207        0x2AB3E8
 DeadWait            0          0             0x0
 
-iss:  562737683  snduna:  562742419  sndnxt:  562742419     sndwnd:  16042
-irs: 3128717722  rcvnxt: 3128722458  rcvwnd:      16042  delrcvwnd:    342
+iss:  562737683  snduna:  562742742  sndnxt:  562742742     sndwnd:  15719
+irs: 3128717722  rcvnxt: 3128722762  rcvwnd:      15738  delrcvwnd:    646
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 2 ms, maxRTT: 300 ms, ACK hold: 200 ms
 Flags: higher precedence, nagle, path mtu capable, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 485 (out of order: 0), with data: 247, total data bytes: 4735
-Sent: 495 (retransmit: 0), with data: 247, total data bytes: 4735
+Rcvd: 518 (out of order: 0), with data: 263, total data bytes: 5039
+Sent: 528 (retransmit: 0), with data: 264, total data bytes: 5058
 
 
 BGP neighbor is 10.10.10.21,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.21
-  BGP state = Established, up for 00:38:52
-  Last read 00:00:09, last write 00:00:00, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:41:32
+  Last read 00:00:04, last write 00:00:04, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -1901,9 +1852,9 @@ BGP neighbor is 10.10.10.21,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           246        244
+    Keepalives:           262        261
     Route Refresh:          0          0
-    Total:                248        246
+    Total:                264        263
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -1951,19 +1902,19 @@ Foreign host: 10.10.10.21, Foreign port: 54649
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x2843DD):
+Event Timers (current time is 0x2AB36A):
 Timer          Starts    Wakeups            Next
-Retrans           248          0             0x0
+Retrans           268          4             0x0
 TimeWait            0          0             0x0
-AckHold           246        240             0x0
+AckHold           263        257             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
 PmtuAger            0          0             0x0
 DeadWait            0          0             0x0
 
-iss: 2562577394  snduna: 2562582149  sndnxt: 2562582149     sndwnd:  16023
-irs:  443679206  rcvnxt:  443683923  rcvwnd:      16061  delrcvwnd:    323
+iss: 2562577394  snduna: 2562582453  sndnxt: 2562582453     sndwnd:  15719
+irs:  443679206  rcvnxt:  443684246  rcvwnd:      15738  delrcvwnd:    646
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 1 ms, maxRTT: 300 ms, ACK hold: 200 ms
@@ -1971,14 +1922,14 @@ Flags: passive open, retransmission timeout, nagle, path mtu capable
   gen tcbs, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 490 (out of order: 0), with data: 246, total data bytes: 4716
-Sent: 492 (retransmit: 0), with data: 248, total data bytes: 4754
+Rcvd: 523 (out of order: 0), with data: 263, total data bytes: 5039
+Sent: 525 (retransmit: 4), with data: 264, total data bytes: 5058
 
 
 BGP neighbor is 10.10.10.23,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.23
-  BGP state = Established, up for 00:38:45
-  Last read 00:00:06, last write 00:00:09, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:41:25
+  Last read 00:00:09, last write 00:00:06, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -1998,9 +1949,9 @@ BGP neighbor is 10.10.10.23,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           243        246
+    Keepalives:           260        263
     Route Refresh:          0          0
-    Total:                245        248
+    Total:                262        265
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -2048,19 +1999,19 @@ Foreign host: 10.10.10.23, Foreign port: 25898
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x2843F6):
+Event Timers (current time is 0x2AB36F):
 Timer          Starts    Wakeups            Next
-Retrans           247          1             0x0
+Retrans           268          5             0x0
 TimeWait            0          0             0x0
-AckHold           248        244             0x0
+AckHold           265        261             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
 PmtuAger            0          0             0x0
 DeadWait            0          0             0x0
 
-iss: 1562296516  snduna: 1562301214  sndnxt: 1562301214     sndwnd:  16080
-irs: 3930720292  rcvnxt: 3930725047  rcvwnd:      16023  delrcvwnd:    361
+iss: 1562296516  snduna: 1562301537  sndnxt: 1562301537     sndwnd:  15757
+irs: 3930720292  rcvnxt: 3930725370  rcvwnd:      15700  delrcvwnd:    684
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 4 ms, maxRTT: 300 ms, ACK hold: 200 ms
@@ -2068,14 +2019,14 @@ Flags: passive open, retransmission timeout, nagle, path mtu capable
   gen tcbs, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 487 (out of order: 0), with data: 248, total data bytes: 4754
-Sent: 493 (retransmit: 1), with data: 245, total data bytes: 4697
+Rcvd: 521 (out of order: 0), with data: 265, total data bytes: 5077
+Sent: 527 (retransmit: 5), with data: 262, total data bytes: 5020
 
 
 BGP neighbor is 10.10.10.24,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.24
-  BGP state = Established, up for 00:38:43
-  Last read 00:00:08, last write 00:00:03, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:41:23
+  Last read 00:00:05, last write 00:00:09, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -2095,9 +2046,9 @@ BGP neighbor is 10.10.10.24,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           244        246
+    Keepalives:           260        263
     Route Refresh:          0          0
-    Total:                246        248
+    Total:                262        265
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -2145,33 +2096,33 @@ Foreign host: 10.10.10.24, Foreign port: 179
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x2843FB):
+Event Timers (current time is 0x2AB370):
 Timer          Starts    Wakeups            Next
-Retrans           247          0             0x0
+Retrans           263          0             0x0
 TimeWait            0          0             0x0
-AckHold           248        244             0x0
+AckHold           265        261             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
-PmtuAger         5614       5613        0x284479
+PmtuAger         6138       6137        0x2AB3E8
 DeadWait            0          0             0x0
 
-iss: 1555674256  snduna: 1555678973  sndnxt: 1555678973     sndwnd:  16061
-irs: 4252805953  rcvnxt: 4252810708  rcvwnd:      16023  delrcvwnd:    361
+iss: 1555674256  snduna: 1555679277  sndnxt: 1555679277     sndwnd:  15757
+irs: 4252805953  rcvnxt: 4252811031  rcvwnd:      15700  delrcvwnd:    684
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 1 ms, maxRTT: 365 ms, ACK hold: 200 ms
 Flags: higher precedence, nagle, path mtu capable, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 494 (out of order: 0), with data: 248, total data bytes: 4754
-Sent: 495 (retransmit: 0), with data: 246, total data bytes: 4716
+Rcvd: 527 (out of order: 0), with data: 265, total data bytes: 5077
+Sent: 528 (retransmit: 0), with data: 262, total data bytes: 5020
 
 
 BGP neighbor is 10.10.10.25,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.25
-  BGP state = Established, up for 00:38:48
-  Last read 00:00:01, last write 00:00:05, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:41:28
+  Last read 00:00:00, last write 00:00:09, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -2191,9 +2142,9 @@ BGP neighbor is 10.10.10.25,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           246        246
+    Keepalives:           262        263
     Route Refresh:          0          0
-    Total:                248        248
+    Total:                264        265
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -2241,19 +2192,19 @@ Foreign host: 10.10.10.25, Foreign port: 61614
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x284408):
+Event Timers (current time is 0x2AB373):
 Timer          Starts    Wakeups            Next
-Retrans           248          1             0x0
+Retrans           264          1             0x0
 TimeWait            0          0             0x0
-AckHold           248        225             0x0
+AckHold           265        242             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
 PmtuAger            0          0             0x0
 DeadWait            0          0             0x0
 
-iss: 1976493073  snduna: 1976497828  sndnxt: 1976497828     sndwnd:  16023
-irs: 3094083535  rcvnxt: 3094088290  rcvwnd:      16023  delrcvwnd:    361
+iss: 1976493073  snduna: 1976498132  sndnxt: 1976498132     sndwnd:  15719
+irs: 3094083535  rcvnxt: 3094088613  rcvwnd:      15700  delrcvwnd:    684
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 4 ms, maxRTT: 300 ms, ACK hold: 200 ms
@@ -2261,14 +2212,14 @@ Flags: passive open, retransmission timeout, nagle, path mtu capable
   gen tcbs, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 496 (out of order: 0), with data: 248, total data bytes: 4754
-Sent: 477 (retransmit: 1), with data: 248, total data bytes: 4754
+Rcvd: 529 (out of order: 0), with data: 265, total data bytes: 5077
+Sent: 510 (retransmit: 1), with data: 264, total data bytes: 5058
 
 
 BGP neighbor is 10.10.10.26,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.26
-  BGP state = Established, up for 00:38:44
-  Last read 00:00:07, last write 00:00:03, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:41:24
+  Last read 00:00:02, last write 00:00:03, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -2288,9 +2239,9 @@ BGP neighbor is 10.10.10.26,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           245        242
+    Keepalives:           262        259
     Route Refresh:          0          0
-    Total:                247        244
+    Total:                264        261
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -2338,33 +2289,33 @@ Foreign host: 10.10.10.26, Foreign port: 179
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x284408):
+Event Timers (current time is 0x2AB374):
 Timer          Starts    Wakeups            Next
-Retrans           248          0             0x0
+Retrans           265          0             0x0
 TimeWait            0          0             0x0
-AckHold           243        239             0x0
+AckHold           260        256             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
-PmtuAger         5664       5663        0x284479
+PmtuAger         6188       6187        0x2AB3E8
 DeadWait            0          0             0x0
 
-iss: 2372186017  snduna: 2372190753  sndnxt: 2372190753     sndwnd:  16042
-irs: 3814056817  rcvnxt: 3814061496  rcvwnd:      16099  delrcvwnd:    285
+iss: 2372186017  snduna: 2372191076  sndnxt: 2372191076     sndwnd:  15719
+irs: 3814056817  rcvnxt: 3814061819  rcvwnd:      15776  delrcvwnd:    608
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 1 ms, maxRTT: 300 ms, ACK hold: 200 ms
 Flags: higher precedence, nagle, path mtu capable, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 473 (out of order: 0), with data: 244, total data bytes: 4678
-Sent: 491 (retransmit: 0), with data: 247, total data bytes: 4735
+Rcvd: 506 (out of order: 0), with data: 261, total data bytes: 5001
+Sent: 525 (retransmit: 0), with data: 264, total data bytes: 5058
 
 
 BGP neighbor is 10.10.10.27,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.27
-  BGP state = Established, up for 00:38:44
-  Last read 00:00:02, last write 00:00:02, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:41:23
+  Last read 00:00:08, last write 00:00:00, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -2384,9 +2335,9 @@ BGP neighbor is 10.10.10.27,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           244        247
+    Keepalives:           261        263
     Route Refresh:          0          0
-    Total:                246        249
+    Total:                263        265
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -2434,19 +2385,19 @@ Foreign host: 10.10.10.27, Foreign port: 14703
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x2846FE):
+Event Timers (current time is 0x2AB377):
 Timer          Starts    Wakeups            Next
-Retrans           247          1             0x0
+Retrans           264          1             0x0
 TimeWait            0          0             0x0
-AckHold           249        244             0x0
+AckHold           265        260             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
 PmtuAger            0          0             0x0
 DeadWait            0          0             0x0
 
-iss: 3553540354  snduna: 3553545071  sndnxt: 3553545071     sndwnd:  16061
-irs: 1804079999  rcvnxt: 1804084773  rcvwnd:      16004  delrcvwnd:    380
+iss: 3553540354  snduna: 3553545394  sndnxt: 3553545394     sndwnd:  15738
+irs: 1804079999  rcvnxt: 1804085077  rcvwnd:      15700  delrcvwnd:    684
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 2 ms, maxRTT: 300 ms, ACK hold: 200 ms
@@ -2454,8 +2405,8 @@ Flags: passive open, retransmission timeout, nagle, path mtu capable
   gen tcbs, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 496 (out of order: 0), with data: 249, total data bytes: 4773
-Sent: 494 (retransmit: 1), with data: 246, total data bytes: 4716
+Rcvd: 529 (out of order: 0), with data: 265, total data bytes: 5077
+Sent: 527 (retransmit: 1), with data: 263, total data bytes: 5039
 
 
 BGP neighbor is 10.10.10.28,  remote AS 65001, internal link
@@ -2508,8 +2459,8 @@ BGP neighbor is 10.10.10.28,  remote AS 65001, internal link
 
 BGP neighbor is 10.10.10.29,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.29
-  BGP state = Established, up for 00:38:41
-  Last read 00:00:01, last write 00:00:07, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:41:20
+  Last read 00:00:05, last write 00:00:08, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -2529,9 +2480,9 @@ BGP neighbor is 10.10.10.29,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           244        242
+    Keepalives:           261        258
     Route Refresh:          0          0
-    Total:                246        244
+    Total:                263        260
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -2579,19 +2530,19 @@ Foreign host: 10.10.10.29, Foreign port: 60414
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x284703):
+Event Timers (current time is 0x2AB377):
 Timer          Starts    Wakeups            Next
-Retrans           246          0             0x0
+Retrans           263          0             0x0
 TimeWait            0          0             0x0
-AckHold           244        232             0x0
+AckHold           260        248             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
 PmtuAger            0          0             0x0
 DeadWait            0          0             0x0
 
-iss: 2267167031  snduna: 2267171748  sndnxt: 2267171748     sndwnd:  16061
-irs:  938812655  rcvnxt:  938817334  rcvwnd:      16099  delrcvwnd:    285
+iss: 2267167031  snduna: 2267172071  sndnxt: 2267172071     sndwnd:  15738
+irs:  938812655  rcvnxt:  938817638  rcvwnd:      15795  delrcvwnd:    589
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 2 ms, maxRTT: 366 ms, ACK hold: 200 ms
@@ -2599,14 +2550,14 @@ Flags: passive open, retransmission timeout, nagle, path mtu capable
   gen tcbs, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 490 (out of order: 0), with data: 244, total data bytes: 4678
-Sent: 482 (retransmit: 0), with data: 246, total data bytes: 4716
+Rcvd: 523 (out of order: 0), with data: 260, total data bytes: 4982
+Sent: 515 (retransmit: 0), with data: 263, total data bytes: 5039
 
 
 BGP neighbor is 10.10.10.30,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.30
-  BGP state = Established, up for 00:38:34
-  Last read 00:00:00, last write 00:00:05, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:41:13
+  Last read 00:00:06, last write 00:00:02, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -2626,9 +2577,9 @@ BGP neighbor is 10.10.10.30,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           243        245
+    Keepalives:           260        261
     Route Refresh:          0          0
-    Total:                245        247
+    Total:                262        263
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -2676,19 +2627,19 @@ Foreign host: 10.10.10.30, Foreign port: 52516
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x284704):
+Event Timers (current time is 0x2AB4AB):
 Timer          Starts    Wakeups            Next
-Retrans           245          0             0x0
+Retrans           262          0             0x0
 TimeWait            0          0             0x0
-AckHold           247        243             0x0
+AckHold           263        259             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
 PmtuAger            0          0             0x0
 DeadWait            0          0             0x0
 
-iss: 1998870080  snduna: 1998874778  sndnxt: 1998874778     sndwnd:  16080
-irs: 1701666497  rcvnxt: 1701671233  rcvwnd:      16042  delrcvwnd:    342
+iss: 1998870080  snduna: 1998875101  sndnxt: 1998875101     sndwnd:  15757
+irs: 1701666497  rcvnxt: 1701671537  rcvwnd:      15738  delrcvwnd:    646
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 1 ms, maxRTT: 300 ms, ACK hold: 200 ms
@@ -2696,14 +2647,14 @@ Flags: passive open, retransmission timeout, nagle, path mtu capable
   gen tcbs, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 492 (out of order: 0), with data: 247, total data bytes: 4735
-Sent: 492 (retransmit: 0), with data: 245, total data bytes: 4697
+Rcvd: 524 (out of order: 0), with data: 263, total data bytes: 5039
+Sent: 525 (retransmit: 0), with data: 262, total data bytes: 5020
 
 
 BGP neighbor is 10.10.10.31,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.31
-  BGP state = Established, up for 00:38:38
-  Last read 00:00:04, last write 00:00:01, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:41:17
+  Last read 00:00:05, last write 00:00:06, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -2723,9 +2674,9 @@ BGP neighbor is 10.10.10.31,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           246        242
+    Keepalives:           262        259
     Route Refresh:          0          0
-    Total:                248        244
+    Total:                264        261
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -2773,19 +2724,19 @@ Foreign host: 10.10.10.31, Foreign port: 33282
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x284727):
+Event Timers (current time is 0x2AB4AB):
 Timer          Starts    Wakeups            Next
-Retrans           247          0             0x0
+Retrans           263          0             0x0
 TimeWait            0          0             0x0
-AckHold           244        226             0x0
+AckHold           261        243             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
 PmtuAger            0          0             0x0
 DeadWait            0          0             0x0
 
-iss: 2134777758  snduna: 2134782513  sndnxt: 2134782513     sndwnd:  16023
-irs: 2655672441  rcvnxt: 2655677120  rcvwnd:      16099  delrcvwnd:    285
+iss: 2134777758  snduna: 2134782817  sndnxt: 2134782817     sndwnd:  15719
+irs: 2655672441  rcvnxt: 2655677443  rcvwnd:      15776  delrcvwnd:    608
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 3 ms, maxRTT: 300 ms, ACK hold: 200 ms
@@ -2793,14 +2744,14 @@ Flags: passive open, retransmission timeout, nagle, path mtu capable
   gen tcbs, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 463 (out of order: 0), with data: 244, total data bytes: 4678
-Sent: 478 (retransmit: 0), with data: 248, total data bytes: 4754
+Rcvd: 496 (out of order: 0), with data: 261, total data bytes: 5001
+Sent: 511 (retransmit: 0), with data: 264, total data bytes: 5058
 
 
 BGP neighbor is 10.10.10.32,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.32
-  BGP state = Established, up for 00:38:34
-  Last read 00:00:07, last write 00:00:00, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:41:13
+  Last read 00:00:04, last write 00:00:09, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -2820,9 +2771,9 @@ BGP neighbor is 10.10.10.32,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           244        242
+    Keepalives:           260        259
     Route Refresh:          0          0
-    Total:                246        244
+    Total:                262        261
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -2870,19 +2821,19 @@ Foreign host: 10.10.10.32, Foreign port: 36839
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x284728):
+Event Timers (current time is 0x2AB4AB):
 Timer          Starts    Wakeups            Next
-Retrans           247          0             0x0
+Retrans           263          0             0x0
 TimeWait            0          0             0x0
-AckHold           244        240             0x0
+AckHold           261        257             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
 PmtuAger            0          0             0x0
 DeadWait            0          0             0x0
 
-iss: 2452553133  snduna: 2452557850  sndnxt: 2452557850     sndwnd:  16061
-irs: 3819555417  rcvnxt: 3819560096  rcvwnd:      16099  delrcvwnd:    285
+iss: 2452553133  snduna: 2452558154  sndnxt: 2452558154     sndwnd:  15757
+irs: 3819555417  rcvnxt: 3819560419  rcvwnd:      15776  delrcvwnd:    608
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 2 ms, maxRTT: 300 ms, ACK hold: 200 ms
@@ -2890,14 +2841,14 @@ Flags: passive open, retransmission timeout, nagle, path mtu capable
   gen tcbs, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 477 (out of order: 0), with data: 244, total data bytes: 4678
-Sent: 490 (retransmit: 0), with data: 246, total data bytes: 4716
+Rcvd: 510 (out of order: 0), with data: 261, total data bytes: 5001
+Sent: 523 (retransmit: 0), with data: 262, total data bytes: 5020
 
 
 BGP neighbor is 10.10.10.33,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.33
-  BGP state = Established, up for 00:38:34
-  Last read 00:00:05, last write 00:00:03, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:41:13
+  Last read 00:00:03, last write 00:00:05, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -2917,9 +2868,9 @@ BGP neighbor is 10.10.10.33,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           243        241
+    Keepalives:           259        258
     Route Refresh:          0          0
-    Total:                245        243
+    Total:                261        260
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -2967,19 +2918,19 @@ Foreign host: 10.10.10.33, Foreign port: 52288
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x28473F):
+Event Timers (current time is 0x2AB4AB):
 Timer          Starts    Wakeups            Next
-Retrans           246          0             0x0
+Retrans           262          0             0x0
 TimeWait            0          0             0x0
-AckHold           243        239             0x0
+AckHold           260        256             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
 PmtuAger            0          0             0x0
 DeadWait            0          0             0x0
 
-iss: 2809817881  snduna: 2809822579  sndnxt: 2809822579     sndwnd:  16080
-irs:  647813466  rcvnxt:  647818126  rcvwnd:      16118  delrcvwnd:    266
+iss: 2809817881  snduna: 2809822883  sndnxt: 2809822883     sndwnd:  15776
+irs:  647813466  rcvnxt:  647818449  rcvwnd:      15795  delrcvwnd:    589
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 2 ms, maxRTT: 300 ms, ACK hold: 200 ms
@@ -2987,14 +2938,14 @@ Flags: passive open, retransmission timeout, nagle, path mtu capable
   gen tcbs, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 488 (out of order: 0), with data: 243, total data bytes: 4659
-Sent: 488 (retransmit: 0), with data: 245, total data bytes: 4697
+Rcvd: 521 (out of order: 0), with data: 260, total data bytes: 4982
+Sent: 521 (retransmit: 0), with data: 261, total data bytes: 5001
 
 
 BGP neighbor is 10.10.10.34,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.34
-  BGP state = Established, up for 00:38:29
-  Last read 00:00:02, last write 00:00:02, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:41:08
+  Last read 00:00:08, last write 00:00:00, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -3014,9 +2965,9 @@ BGP neighbor is 10.10.10.34,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           241        243
+    Keepalives:           258        259
     Route Refresh:          0          0
-    Total:                243        245
+    Total:                260        261
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -3064,19 +3015,19 @@ Foreign host: 10.10.10.34, Foreign port: 42198
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x28473F):
+Event Timers (current time is 0x2AB4AF):
 Timer          Starts    Wakeups            Next
-Retrans           243          0             0x0
+Retrans           260          0             0x0
 TimeWait            0          0             0x0
-AckHold           245        240             0x0
+AckHold           261        256             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
 PmtuAger            0          0             0x0
 DeadWait            0          0             0x0
 
-iss: 1188739617  snduna: 1188744277  sndnxt: 1188744277     sndwnd:  16118
-irs: 1744742427  rcvnxt: 1744747125  rcvwnd:      16080  delrcvwnd:    304
+iss: 1188739617  snduna: 1188744600  sndnxt: 1188744600     sndwnd:  15795
+irs: 1744742427  rcvnxt: 1744747429  rcvwnd:      15776  delrcvwnd:    608
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 2 ms, maxRTT: 300 ms, ACK hold: 200 ms
@@ -3084,14 +3035,14 @@ Flags: passive open, retransmission timeout, nagle, path mtu capable
   gen tcbs, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 488 (out of order: 0), with data: 245, total data bytes: 4697
-Sent: 487 (retransmit: 0), with data: 243, total data bytes: 4659
+Rcvd: 521 (out of order: 0), with data: 261, total data bytes: 5001
+Sent: 520 (retransmit: 0), with data: 260, total data bytes: 4982
 
 
 BGP neighbor is 10.10.10.35,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.35
-  BGP state = Established, up for 00:38:27
-  Last read 00:00:05, last write 00:00:04, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:41:06
+  Last read 00:00:04, last write 00:00:00, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -3111,9 +3062,9 @@ BGP neighbor is 10.10.10.35,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           242        242
+    Keepalives:           259        259
     Route Refresh:          0          0
-    Total:                244        244
+    Total:                261        261
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -3161,33 +3112,33 @@ Foreign host: 10.10.10.35, Foreign port: 179
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x28475F):
+Event Timers (current time is 0x2AB4AF):
 Timer          Starts    Wakeups            Next
-Retrans           245          0             0x0
+Retrans           262          0             0x0
 TimeWait            0          0             0x0
-AckHold           243        220             0x0
+AckHold           260        237             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
-PmtuAger         5606       5605        0x28480C
+PmtuAger         6128       6127        0x2AB51A
 DeadWait            0          0             0x0
 
-iss: 2840489841  snduna: 2840494520  sndnxt: 2840494520     sndwnd:  16099
-irs: 4181754218  rcvnxt: 4181758897  rcvwnd:      16099  delrcvwnd:    285
+iss: 2840489841  snduna: 2840494843  sndnxt: 2840494843     sndwnd:  15776
+irs: 4181754218  rcvnxt: 4181759220  rcvwnd:      15776  delrcvwnd:    608
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 3 ms, maxRTT: 300 ms, ACK hold: 200 ms
 Flags: higher precedence, nagle, path mtu capable, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 488 (out of order: 0), with data: 244, total data bytes: 4678
-Sent: 469 (retransmit: 0), with data: 244, total data bytes: 4678
+Rcvd: 522 (out of order: 0), with data: 261, total data bytes: 5001
+Sent: 503 (retransmit: 0), with data: 261, total data bytes: 5001
 
 
 BGP neighbor is 10.10.10.36,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.36
-  BGP state = Established, up for 00:38:30
-  Last read 00:00:04, last write 00:00:00, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:41:09
+  Last read 00:00:08, last write 00:00:06, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -3207,9 +3158,9 @@ BGP neighbor is 10.10.10.36,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           243        240
+    Keepalives:           259        256
     Route Refresh:          0          0
-    Total:                245        242
+    Total:                261        258
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -3257,19 +3208,19 @@ Foreign host: 10.10.10.36, Foreign port: 21961
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x284760):
+Event Timers (current time is 0x2AB4B1):
 Timer          Starts    Wakeups            Next
-Retrans           244          0             0x0
+Retrans           264          4             0x0
 TimeWait            0          0             0x0
-AckHold           242        238             0x0
+AckHold           258        254             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
 PmtuAger            0          0             0x0
 DeadWait            0          0             0x0
 
-iss: 3198804971  snduna: 3198809669  sndnxt: 3198809669     sndwnd:  16080
-irs: 3338040312  rcvnxt: 3338044953  rcvwnd:      16137  delrcvwnd:    247
+iss: 3198804971  snduna: 3198809973  sndnxt: 3198809973     sndwnd:  15776
+irs: 3338040312  rcvnxt: 3338045257  rcvwnd:      15833  delrcvwnd:    551
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 0 ms, maxRTT: 300 ms, ACK hold: 200 ms
@@ -3277,14 +3228,14 @@ Flags: passive open, retransmission timeout, nagle, path mtu capable
   gen tcbs, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 486 (out of order: 0), with data: 242, total data bytes: 4640
-Sent: 487 (retransmit: 0), with data: 245, total data bytes: 4697
+Rcvd: 518 (out of order: 0), with data: 258, total data bytes: 4944
+Sent: 519 (retransmit: 4), with data: 261, total data bytes: 5001
 
 
 BGP neighbor is 10.10.10.37,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.37
-  BGP state = Established, up for 00:38:19
-  Last read 00:00:01, last write 00:00:03, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:40:59
+  Last read 00:00:10, last write 00:00:01, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -3304,9 +3255,9 @@ BGP neighbor is 10.10.10.37,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           241        241
+    Keepalives:           258        257
     Route Refresh:          0          0
-    Total:                243        243
+    Total:                260        259
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -3354,33 +3305,33 @@ Foreign host: 10.10.10.37, Foreign port: 179
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x284CDA):
+Event Timers (current time is 0x2AB4B1):
 Timer          Starts    Wakeups            Next
-Retrans           244          0             0x0
+Retrans           261          0             0x0
 TimeWait            0          0             0x0
-AckHold           242        233             0x0
+AckHold           258        249             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
-PmtuAger         5588       5587        0x284DFE
+PmtuAger         6105       6104        0x2AB51A
 DeadWait            0          0             0x0
 
-iss: 2351636895  snduna: 2351641555  sndnxt: 2351641555     sndwnd:  16118
-irs:  208406780  rcvnxt:  208411440  rcvwnd:      16118  delrcvwnd:    266
+iss: 2351636895  snduna: 2351641878  sndnxt: 2351641878     sndwnd:  15795
+irs:  208406780  rcvnxt:  208411744  rcvwnd:      15814  delrcvwnd:    570
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 3 ms, maxRTT: 300 ms, ACK hold: 200 ms
 Flags: higher precedence, nagle, path mtu capable, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 472 (out of order: 0), with data: 243, total data bytes: 4659
-Sent: 482 (retransmit: 0), with data: 243, total data bytes: 4659
+Rcvd: 505 (out of order: 0), with data: 259, total data bytes: 4963
+Sent: 515 (retransmit: 0), with data: 260, total data bytes: 4982
 
 
 BGP neighbor is 10.10.10.38,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.38
-  BGP state = Established, up for 00:38:16
-  Last read 00:00:07, last write 00:00:00, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:40:53
+  Last read 00:00:08, last write 00:00:02, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -3400,9 +3351,9 @@ BGP neighbor is 10.10.10.38,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           242        239
+    Keepalives:           258        256
     Route Refresh:          0          0
-    Total:                244        241
+    Total:                260        258
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -3448,35 +3399,35 @@ Mininum incoming TTL 0, Outgoing TTL 255
 Local host: 10.10.10.22, Local port: 47982
 Foreign host: 10.10.10.38, Foreign port: 179
 
-Enqueued packets for retransmit: 1, input: 0  mis-ordered: 0 (0 bytes)
+Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x284CDA):
+Event Timers (current time is 0x2AB4B4):
 Timer          Starts    Wakeups            Next
-Retrans           244          0        0x284DFF
+Retrans           260          0             0x0
 TimeWait            0          0             0x0
-AckHold           239        235             0x0
+AckHold           256        252             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
-PmtuAger         5571       5570        0x284DFE
+PmtuAger         6088       6087        0x2AB51A
 DeadWait            0          0             0x0
 
-iss: 2831937783  snduna: 2831942443  sndnxt: 2831942462     sndwnd:  16118
-irs: 2377061268  rcvnxt: 2377065890  rcvwnd:      16156  delrcvwnd:    228
+iss: 2831937783  snduna: 2831942766  sndnxt: 2831942766     sndwnd:  15795
+irs: 2377061268  rcvnxt: 2377066213  rcvwnd:      15833  delrcvwnd:    551
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 1 ms, maxRTT: 300 ms, ACK hold: 200 ms
 Flags: higher precedence, nagle, path mtu capable, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 483 (out of order: 0), with data: 241, total data bytes: 4621
-Sent: 484 (retransmit: 0), with data: 244, total data bytes: 4678
+Rcvd: 517 (out of order: 0), with data: 258, total data bytes: 4944
+Sent: 517 (retransmit: 0), with data: 260, total data bytes: 4982
 
 
 BGP neighbor is 10.10.10.39,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.39
-  BGP state = Established, up for 00:38:19
-  Last read 00:00:07, last write 00:00:00, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:40:56
+  Last read 00:00:01, last write 00:00:03, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -3496,9 +3447,9 @@ BGP neighbor is 10.10.10.39,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           242        240
+    Keepalives:           258        257
     Route Refresh:          0          0
-    Total:                244        242
+    Total:                260        259
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -3544,35 +3495,35 @@ Mininum incoming TTL 0, Outgoing TTL 255
 Local host: 10.10.10.22, Local port: 40856
 Foreign host: 10.10.10.39, Foreign port: 179
 
-Enqueued packets for retransmit: 1, input: 0  mis-ordered: 0 (0 bytes)
+Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x284CDB):
+Event Timers (current time is 0x2AB4B4):
 Timer          Starts    Wakeups            Next
-Retrans           245          0        0x284DFE
+Retrans           261          0             0x0
 TimeWait            0          0             0x0
-AckHold           242        223             0x0
+AckHold           259        238             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
-PmtuAger         5581       5580        0x284DFE
+PmtuAger         6098       6097        0x2AB51A
 DeadWait            0          0             0x0
 
-iss:  280144649  snduna:  280149309  sndnxt:  280149328     sndwnd:  16118
-irs: 4210818649  rcvnxt: 4210823290  rcvwnd:      16137  delrcvwnd:    247
+iss:  280144649  snduna:  280149632  sndnxt:  280149632     sndwnd:  15795
+irs: 4210818649  rcvnxt: 4210823613  rcvwnd:      15814  delrcvwnd:    570
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 2 ms, maxRTT: 300 ms, ACK hold: 200 ms
 Flags: higher precedence, nagle, path mtu capable, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 486 (out of order: 0), with data: 242, total data bytes: 4640
-Sent: 473 (retransmit: 0), with data: 244, total data bytes: 4678
+Rcvd: 520 (out of order: 0), with data: 259, total data bytes: 4963
+Sent: 504 (retransmit: 0), with data: 260, total data bytes: 4982
 
 
 BGP neighbor is 10.10.10.40,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.40
-  BGP state = Established, up for 00:38:18
-  Last read 00:00:00, last write 00:00:01, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:40:55
+  Last read 00:00:07, last write 00:00:05, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -3592,9 +3543,9 @@ BGP neighbor is 10.10.10.40,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           243        241
+    Keepalives:           259        257
     Route Refresh:          0          0
-    Total:                245        243
+    Total:                261        259
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -3642,33 +3593,33 @@ Foreign host: 10.10.10.40, Foreign port: 179
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x284D1D):
+Event Timers (current time is 0x2AB4B9):
 Timer          Starts    Wakeups            Next
-Retrans           246          0             0x0
+Retrans           266          4             0x0
 TimeWait            0          0             0x0
-AckHold           242        238             0x0
+AckHold           257        253             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
-PmtuAger         5577       5576        0x284DFE
+PmtuAger         6068       6067        0x2AB4FB
 DeadWait            0          0             0x0
 
-iss: 2980990242  snduna: 2980994940  sndnxt: 2980994940     sndwnd:  16080
-irs: 3641030764  rcvnxt: 3641035424  rcvwnd:      16118  delrcvwnd:    266
+iss: 2980990242  snduna: 2980995244  sndnxt: 2980995244     sndwnd:  15776
+irs: 3641030764  rcvnxt: 3641035728  rcvwnd:      15814  delrcvwnd:    570
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 2 ms, maxRTT: 300 ms, ACK hold: 200 ms
 Flags: higher precedence, nagle, path mtu capable, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 458 (out of order: 0), with data: 243, total data bytes: 4659
-Sent: 489 (retransmit: 0), with data: 245, total data bytes: 4697
+Rcvd: 490 (out of order: 1), with data: 258, total data bytes: 4963
+Sent: 521 (retransmit: 4), with data: 261, total data bytes: 5001
 
 
 BGP neighbor is 10.10.10.41,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.41
-  BGP state = Established, up for 00:38:15
-  Last read 00:00:08, last write 00:00:07, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:40:52
+  Last read 00:00:00, last write 00:00:08, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -3688,9 +3639,9 @@ BGP neighbor is 10.10.10.41,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           241        239
+    Keepalives:           257        256
     Route Refresh:          0          0
-    Total:                243        241
+    Total:                259        258
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -3738,33 +3689,33 @@ Foreign host: 10.10.10.41, Foreign port: 179
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x284D1D):
+Event Timers (current time is 0x2AB4B9):
 Timer          Starts    Wakeups            Next
-Retrans           244          0             0x0
+Retrans           260          0             0x0
 TimeWait            0          0             0x0
-AckHold           240        236             0x0
+AckHold           257        253             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
-PmtuAger         5569       5568        0x285063
+PmtuAger         6084       6083        0x2AB51A
 DeadWait            0          0             0x0
 
-iss: 2091474889  snduna: 2091479549  sndnxt: 2091479549     sndwnd:  16118
-irs: 3573974735  rcvnxt: 3573979357  rcvwnd:      16156  delrcvwnd:    228
+iss: 2091474889  snduna: 2091479853  sndnxt: 2091479853     sndwnd:  15814
+irs: 3573974735  rcvnxt: 3573979680  rcvwnd:      15833  delrcvwnd:    551
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 4 ms, maxRTT: 300 ms, ACK hold: 200 ms
 Flags: higher precedence, nagle, path mtu capable, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 482 (out of order: 0), with data: 241, total data bytes: 4621
-Sent: 484 (retransmit: 0), with data: 243, total data bytes: 4659
+Rcvd: 513 (out of order: 0), with data: 258, total data bytes: 4944
+Sent: 517 (retransmit: 0), with data: 259, total data bytes: 4963
 
 
 BGP neighbor is 10.10.10.42,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.42
-  BGP state = Established, up for 00:38:12
-  Last read 00:00:03, last write 00:00:04, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:40:49
+  Last read 00:00:05, last write 00:00:01, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -3784,9 +3735,9 @@ BGP neighbor is 10.10.10.42,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           241        239
+    Keepalives:           258        255
     Route Refresh:          0          0
-    Total:                243        241
+    Total:                260        257
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -3834,33 +3785,33 @@ Foreign host: 10.10.10.42, Foreign port: 179
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x284F55):
+Event Timers (current time is 0x2AB4BC):
 Timer          Starts    Wakeups            Next
-Retrans           244          0             0x0
+Retrans           261          0             0x0
 TimeWait            0          0             0x0
-AckHold           240        236             0x0
+AckHold           256        252             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
-PmtuAger         5559       5558        0x285063
+PmtuAger         6074       6073        0x2AB51A
 DeadWait            0          0             0x0
 
-iss:  428773982  snduna:  428778642  sndnxt:  428778642     sndwnd:  16118
-irs: 1359257694  rcvnxt: 1359262316  rcvwnd:      16156  delrcvwnd:    228
+iss:  428773982  snduna:  428778965  sndnxt:  428778965     sndwnd:  15795
+irs: 1359257694  rcvnxt: 1359262620  rcvwnd:      15852  delrcvwnd:    532
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 2 ms, maxRTT: 300 ms, ACK hold: 200 ms
 Flags: higher precedence, nagle, path mtu capable, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 484 (out of order: 0), with data: 241, total data bytes: 4621
-Sent: 484 (retransmit: 0), with data: 243, total data bytes: 4659
+Rcvd: 517 (out of order: 0), with data: 257, total data bytes: 4925
+Sent: 517 (retransmit: 0), with data: 260, total data bytes: 4982
 
 
 BGP neighbor is 10.10.10.43,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.43
-  BGP state = Established, up for 00:38:09
-  Last read 00:00:07, last write 00:00:07, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:40:46
+  Last read 00:00:06, last write 00:00:08, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -3880,9 +3831,9 @@ BGP neighbor is 10.10.10.43,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           238        240
+    Keepalives:           254        257
     Route Refresh:          0          0
-    Total:                240        242
+    Total:                256        259
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -3930,19 +3881,19 @@ Foreign host: 10.10.10.43, Foreign port: 18381
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x284F55):
+Event Timers (current time is 0x2AB4BC):
 Timer          Starts    Wakeups            Next
-Retrans           241          0             0x0
+Retrans           257          0             0x0
 TimeWait            0          0             0x0
-AckHold           242        225             0x0
+AckHold           259        242             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
 PmtuAger            0          0             0x0
 DeadWait            0          0             0x0
 
-iss: 1420035706  snduna: 1420040309  sndnxt: 1420040309     sndwnd:  16175
-irs: 4003202840  rcvnxt: 4003207481  rcvwnd:      16137  delrcvwnd:    247
+iss: 1420035706  snduna: 1420040613  sndnxt: 1420040613     sndwnd:  15871
+irs: 4003202840  rcvnxt: 4003207804  rcvwnd:      15814  delrcvwnd:    570
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 3 ms, maxRTT: 300 ms, ACK hold: 200 ms
@@ -3950,14 +3901,14 @@ Flags: passive open, retransmission timeout, nagle, path mtu capable
   gen tcbs, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 459 (out of order: 0), with data: 242, total data bytes: 4640
-Sent: 469 (retransmit: 0), with data: 240, total data bytes: 4602
+Rcvd: 491 (out of order: 0), with data: 259, total data bytes: 4963
+Sent: 502 (retransmit: 0), with data: 256, total data bytes: 4906
 
 
 BGP neighbor is 10.10.10.44,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.44
-  BGP state = Established, up for 00:38:14
-  Last read 00:00:09, last write 00:00:03, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:40:50
+  Last read 00:00:06, last write 00:00:04, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -3977,9 +3928,9 @@ BGP neighbor is 10.10.10.44,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           240        240
+    Keepalives:           256        257
     Route Refresh:          0          0
-    Total:                242        242
+    Total:                258        259
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -4027,19 +3978,19 @@ Foreign host: 10.10.10.44, Foreign port: 46986
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x2851C6):
+Event Timers (current time is 0x2AB4BD):
 Timer          Starts    Wakeups            Next
-Retrans           242          0             0x0
+Retrans           262          4             0x0
 TimeWait            0          0             0x0
-AckHold           242        238             0x0
+AckHold           259        255             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
 PmtuAger            0          0             0x0
 DeadWait            0          0             0x0
 
-iss:  634199071  snduna:  634203712  sndnxt:  634203712     sndwnd:  16137
-irs: 2327248530  rcvnxt: 2327253171  rcvwnd:      16137  delrcvwnd:    247
+iss:  634199071  snduna:  634204016  sndnxt:  634204016     sndwnd:  15833
+irs: 2327248530  rcvnxt: 2327253494  rcvwnd:      15814  delrcvwnd:    570
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 3 ms, maxRTT: 300 ms, ACK hold: 200 ms
@@ -4047,14 +3998,14 @@ Flags: passive open, retransmission timeout, nagle, path mtu capable
   gen tcbs, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 471 (out of order: 0), with data: 242, total data bytes: 4640
-Sent: 484 (retransmit: 0), with data: 242, total data bytes: 4640
+Rcvd: 504 (out of order: 0), with data: 259, total data bytes: 4963
+Sent: 517 (retransmit: 4), with data: 258, total data bytes: 4944
 
 
 BGP neighbor is 10.10.10.45,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.45
-  BGP state = Established, up for 00:38:07
-  Last read 00:00:08, last write 00:00:07, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:40:43
+  Last read 00:00:03, last write 00:00:02, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -4074,9 +4025,9 @@ BGP neighbor is 10.10.10.45,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           241        239
+    Keepalives:           258        256
     Route Refresh:          0          0
-    Total:                243        241
+    Total:                260        258
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -4124,19 +4075,19 @@ Foreign host: 10.10.10.45, Foreign port: 22718
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x2851C6):
+Event Timers (current time is 0x2AB4BE):
 Timer          Starts    Wakeups            Next
-Retrans           243          0             0x0
+Retrans           260          0             0x0
 TimeWait            0          0             0x0
-AckHold           241        236             0x0
+AckHold           258        253             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
 PmtuAger            0          0             0x0
 DeadWait            0          0             0x0
 
-iss:  836382985  snduna:  836387645  sndnxt:  836387645     sndwnd:  16118
-irs: 3599045723  rcvnxt: 3599050345  rcvwnd:      16156  delrcvwnd:    228
+iss:  836382985  snduna:  836387968  sndnxt:  836387968     sndwnd:  15795
+irs: 3599045723  rcvnxt: 3599050668  rcvwnd:      15833  delrcvwnd:    551
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 4 ms, maxRTT: 300 ms, ACK hold: 200 ms
@@ -4144,14 +4095,14 @@ Flags: passive open, retransmission timeout, nagle, path mtu capable
   gen tcbs, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 476 (out of order: 0), with data: 241, total data bytes: 4621
-Sent: 483 (retransmit: 0), with data: 243, total data bytes: 4659
+Rcvd: 510 (out of order: 0), with data: 258, total data bytes: 4944
+Sent: 517 (retransmit: 0), with data: 260, total data bytes: 4982
 
 
 BGP neighbor is 10.10.10.46,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.46
-  BGP state = Established, up for 00:38:01
-  Last read 00:00:07, last write 00:00:03, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:40:38
+  Last read 00:00:09, last write 00:00:05, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -4171,9 +4122,9 @@ BGP neighbor is 10.10.10.46,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           239        239
+    Keepalives:           255        255
     Route Refresh:          0          0
-    Total:                241        241
+    Total:                257        257
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -4221,19 +4172,19 @@ Foreign host: 10.10.10.46, Foreign port: 63956
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x2851CC):
+Event Timers (current time is 0x2AB4C1):
 Timer          Starts    Wakeups            Next
-Retrans           240          0             0x0
+Retrans           260          4             0x0
 TimeWait            0          0             0x0
-AckHold           241        229             0x0
+AckHold           257        245             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
 PmtuAger            0          0             0x0
 DeadWait            0          0             0x0
 
-iss: 2023281114  snduna: 2023285736  sndnxt: 2023285736     sndwnd:  16156
-irs:  218772264  rcvnxt:  218776886  rcvwnd:      16156  delrcvwnd:    228
+iss: 2023281114  snduna: 2023286040  sndnxt: 2023286040     sndwnd:  15852
+irs:  218772264  rcvnxt:  218777190  rcvwnd:      15852  delrcvwnd:    532
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 2 ms, maxRTT: 300 ms, ACK hold: 200 ms
@@ -4241,14 +4192,14 @@ Flags: passive open, retransmission timeout, nagle, path mtu capable
   gen tcbs, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 472 (out of order: 0), with data: 241, total data bytes: 4621
-Sent: 474 (retransmit: 0), with data: 241, total data bytes: 4621
+Rcvd: 504 (out of order: 0), with data: 257, total data bytes: 4925
+Sent: 506 (retransmit: 4), with data: 257, total data bytes: 4925
 
 
 BGP neighbor is 10.10.10.47,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.47
-  BGP state = Established, up for 00:38:08
-  Last read 00:00:09, last write 00:00:03, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:40:45
+  Last read 00:00:07, last write 00:00:07, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -4268,9 +4219,9 @@ BGP neighbor is 10.10.10.47,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           240        239
+    Keepalives:           256        256
     Route Refresh:          0          0
-    Total:                242        241
+    Total:                258        258
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -4318,19 +4269,19 @@ Foreign host: 10.10.10.47, Foreign port: 61740
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x2851CC):
+Event Timers (current time is 0x2AB4C2):
 Timer          Starts    Wakeups            Next
-Retrans           242          0             0x0
+Retrans           258          0             0x0
 TimeWait            0          0             0x0
-AckHold           241        231             0x0
+AckHold           258        248             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
 PmtuAger            0          0             0x0
 DeadWait            0          0             0x0
 
-iss: 1917205307  snduna: 1917209948  sndnxt: 1917209948     sndwnd:  16137
-irs:   89961236  rcvnxt:   89965858  rcvwnd:      16156  delrcvwnd:    228
+iss: 1917205307  snduna: 1917210252  sndnxt: 1917210252     sndwnd:  15833
+irs:   89961236  rcvnxt:   89966181  rcvwnd:      15833  delrcvwnd:    551
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 4 ms, maxRTT: 300 ms, ACK hold: 200 ms
@@ -4338,14 +4289,14 @@ Flags: passive open, retransmission timeout, nagle, path mtu capable
   gen tcbs, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 473 (out of order: 0), with data: 241, total data bytes: 4621
-Sent: 477 (retransmit: 0), with data: 242, total data bytes: 4640
+Rcvd: 506 (out of order: 0), with data: 258, total data bytes: 4944
+Sent: 510 (retransmit: 0), with data: 258, total data bytes: 4944
 
 
 BGP neighbor is 10.10.10.48,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.48
-  BGP state = Established, up for 00:38:02
-  Last read 00:00:05, last write 00:00:06, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:40:38
+  Last read 00:00:00, last write 00:00:01, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -4365,9 +4316,9 @@ BGP neighbor is 10.10.10.48,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           240        239
+    Keepalives:           257        256
     Route Refresh:          0          0
-    Total:                242        241
+    Total:                259        258
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -4415,19 +4366,19 @@ Foreign host: 10.10.10.48, Foreign port: 28174
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x2851D2):
+Event Timers (current time is 0x2AB4C3):
 Timer          Starts    Wakeups            Next
-Retrans           242          1             0x0
+Retrans           259          1             0x0
 TimeWait            0          0             0x0
-AckHold           241        237             0x0
+AckHold           258        253        0x2AB54F
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
 PmtuAger            0          0             0x0
 DeadWait            0          0             0x0
 
-iss: 2536384593  snduna: 2536389234  sndnxt: 2536389234     sndwnd:  16137
-irs: 2331615561  rcvnxt: 2331620183  rcvwnd:      16156  delrcvwnd:    228
+iss: 2536384593  snduna: 2536389557  sndnxt: 2536389557     sndwnd:  15814
+irs: 2331615561  rcvnxt: 2331620506  rcvwnd:      15833  delrcvwnd:    551
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 3 ms, maxRTT: 300 ms, ACK hold: 200 ms
@@ -4435,14 +4386,14 @@ Flags: passive open, retransmission timeout, nagle, path mtu capable
   gen tcbs, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 479 (out of order: 0), with data: 241, total data bytes: 4621
-Sent: 483 (retransmit: 1), with data: 242, total data bytes: 4640
+Rcvd: 513 (out of order: 0), with data: 258, total data bytes: 4944
+Sent: 516 (retransmit: 1), with data: 259, total data bytes: 4963
 
 
 BGP neighbor is 10.10.10.49,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.49
-  BGP state = Established, up for 00:38:05
-  Last read 00:00:04, last write 00:00:09, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:40:41
+  Last read 00:00:03, last write 00:00:04, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -4462,9 +4413,9 @@ BGP neighbor is 10.10.10.49,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           238        239
+    Keepalives:           255        256
     Route Refresh:          0          0
-    Total:                240        241
+    Total:                257        258
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -4512,19 +4463,19 @@ Foreign host: 10.10.10.49, Foreign port: 53877
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x2851D2):
+Event Timers (current time is 0x2AB4C3):
 Timer          Starts    Wakeups            Next
-Retrans           240          0             0x0
+Retrans           257          0             0x0
 TimeWait            0          0             0x0
-AckHold           241        235             0x0
+AckHold           258        252             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
 PmtuAger            0          0             0x0
 DeadWait            0          0             0x0
 
-iss: 2149668339  snduna: 2149672942  sndnxt: 2149672942     sndwnd:  16175
-irs: 2001867251  rcvnxt: 2001871873  rcvwnd:      16156  delrcvwnd:    228
+iss: 2149668339  snduna: 2149673265  sndnxt: 2149673265     sndwnd:  15852
+irs: 2001867251  rcvnxt: 2001872196  rcvwnd:      15833  delrcvwnd:    551
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 3 ms, maxRTT: 300 ms, ACK hold: 200 ms
@@ -4532,14 +4483,14 @@ Flags: passive open, retransmission timeout, nagle, path mtu capable
   gen tcbs, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 474 (out of order: 0), with data: 241, total data bytes: 4621
-Sent: 481 (retransmit: 0), with data: 240, total data bytes: 4602
+Rcvd: 508 (out of order: 0), with data: 258, total data bytes: 4944
+Sent: 515 (retransmit: 0), with data: 257, total data bytes: 4925
 
 
 BGP neighbor is 10.10.10.50,  remote AS 65001, internal link
   BGP version 4, remote router ID 10.10.10.50
-  BGP state = Established, up for 00:38:04
-  Last read 00:00:00, last write 00:00:01, hold time is 30, keepalive interval is 10 seconds
+  BGP state = Established, up for 00:40:41
+  Last read 00:00:05, last write 00:00:07, hold time is 30, keepalive interval is 10 seconds
   Configured hold time is 30, keepalive interval is 10 seconds
   Minimum holdtime from neighbor is 0 seconds
   Neighbor sessions:
@@ -4559,9 +4510,9 @@ BGP neighbor is 10.10.10.50,  remote AS 65001, internal link
     Opens:                  1          1
     Notifications:          0          0
     Updates:                1          1
-    Keepalives:           240        238
+    Keepalives:           256        254
     Route Refresh:          0          0
-    Total:                242        240
+    Total:                258        256
   Default minimum time between advertisement runs is 0 seconds
 
  For address family: IPv4 Unicast
@@ -4609,19 +4560,19 @@ Foreign host: 10.10.10.50, Foreign port: 15426
 
 Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
 
-Event Timers (current time is 0x2851D9):
+Event Timers (current time is 0x2AB4C7):
 Timer          Starts    Wakeups            Next
-Retrans           243          0             0x0
+Retrans           263          4             0x0
 TimeWait            0          0             0x0
-AckHold           240        236             0x0
+AckHold           256        252             0x0
 SendWnd             0          0             0x0
 KeepAlive           0          0             0x0
 GiveUp              0          0             0x0
 PmtuAger            0          0             0x0
 DeadWait            0          0             0x0
 
-iss:  757323049  snduna:  757327690  sndnxt:  757327690     sndwnd:  16137
-irs: 3463231049  rcvnxt: 3463235652  rcvwnd:      16175  delrcvwnd:    209
+iss:  757323049  snduna:  757327994  sndnxt:  757327994     sndwnd:  15833
+irs: 3463231049  rcvnxt: 3463235956  rcvwnd:      15871  delrcvwnd:    513
 
 SRTT: 300 ms, RTTO: 303 ms, RTV: 3 ms, KRTT: 0 ms
 minRTT: 4 ms, maxRTT: 300 ms, ACK hold: 200 ms
@@ -4629,5 +4580,5 @@ Flags: passive open, retransmission timeout, nagle, path mtu capable
   gen tcbs, md5
 
 Datagrams (max data segment is 1460 bytes):
-Rcvd: 483 (out of order: 0), with data: 240, total data bytes: 4602
-Sent: 482 (retransmit: 0), with data: 242, total data bytes: 4640
+Rcvd: 515 (out of order: 0), with data: 256, total data bytes: 4906
+Sent: 514 (retransmit: 4), with data: 258, total data bytes: 4944

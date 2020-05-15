@@ -7,26 +7,20 @@ No Active Message Discriminator.
 No Inactive Message Discriminator.
 
 
-    Console logging: level debugging, 369 messages logged, xml disabled,
+    Console logging: level debugging, 373 messages logged, xml disabled,
                      filtering disabled
     Monitor logging: level debugging, 0 messages logged, xml disabled,
                      filtering disabled
-    Buffer logging:  level debugging, 369 messages logged, xml disabled,
+    Buffer logging:  level debugging, 373 messages logged, xml disabled,
                     filtering disabled
     Exception Logging: size (4096 bytes)
     Count and timestamp logging messages: disabled
     Persistent logging: disabled
-    Trap logging: level informational, 372 message lines logged
+    Trap logging: level informational, 376 message lines logged
         Logging Source-Interface:       VRF Name:
 
 Log Buffer (4096 bytes):
-(179) to 10.10.10.47(45273) (RST)
-*May 11 18:59:42.610: %BGP-5-ADJCHANGE: neighbor 10.10.10.34 Up
-*May 11 18:59:42.611: %BGP-5-ADJCHANGE: neighbor 10.10.10.13 Up
-*May 11 18:59:42.808: %BGP-5-ADJCHANGE: neighbor 10.10.10.42 Up
-*May 11 18:59:42.811: %BGP-5-ADJCHANGE: neighbor 10.10.10.22 Up
-*May 11 18:59:42.905: %TCP-6-BADAUTH: No MD5 digest from 10.10.10.43(179) to 10.10.10.47(48815) (RST)
-*May 11 18:59:43.556: %SYS-5-CONFIG_I: Configured from console by john on vty0 (192.168.31.1)
+YS-5-CONFIG_I: Configured from console by john on vty0 (192.168.31.1)
 *May 11 18:59:44.001: %BGP-5-ADJCHANGE: neighbor 10.10.10.46 Up
 *May 11 18:59:44.644: %TCP-6-BADAUTH: No MD5 digest from 10.10.10.39(179) to 10.10.10.47(15030) (RST)
 *May 11 18:59:44.653: %BGP-5-ADJCHANGE: neighbor 10.10.10.19 Up
@@ -77,3 +71,7 @@ Log Buffer (4096 bytes):
 *May 11 19:00:03.489: %BGP-5-ADJCHANGE: neighbor 10.10.10.2 Up
 *May 11 19:00:04.497: %BGP-5-ADJCHANGE: neighbor 10.10.10.6 Up
 *May 11 19:00:06.317: %BGP-5-ADJCHANGE: neighbor 10.10.10.3 Up
+*May 11 19:40:22.363: %BGP-3-NOTIFICATION: sent to neighbor 10.10.10.7 4/0 (hold time expired) 0 bytes
+*May 11 19:40:22.363: %BGP-5-NBR_RESET: Neighbor 10.10.10.7 reset (BGP Notification sent)
+*May 11 19:40:22.363: %BGP-5-ADJCHANGE: neighbor 10.10.10.7 Down BGP Notification sent
+*May 11 19:40:22.363: %BGP_SESSION-5-ADJCHANGE: neighbor 10.10.10.7 IPv4 Unicast topology base removed from session  BGP Notification sent

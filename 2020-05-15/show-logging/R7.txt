@@ -7,26 +7,20 @@ No Active Message Discriminator.
 No Inactive Message Discriminator.
 
 
-    Console logging: level debugging, 134 messages logged, xml disabled,
+    Console logging: level debugging, 138 messages logged, xml disabled,
                      filtering disabled
     Monitor logging: level debugging, 0 messages logged, xml disabled,
                      filtering disabled
-    Buffer logging:  level debugging, 134 messages logged, xml disabled,
+    Buffer logging:  level debugging, 138 messages logged, xml disabled,
                     filtering disabled
     Exception Logging: size (4096 bytes)
     Count and timestamp logging messages: disabled
     Persistent logging: disabled
-    Trap logging: level informational, 137 message lines logged
+    Trap logging: level informational, 141 message lines logged
         Logging Source-Interface:       VRF Name:
 
 Log Buffer (4096 bytes):
-18:59:20.174: %SYS-5-CONFIG_I: Configured from console by john on vty0 (192.168.31.1)
-*May 11 18:59:21.530: %BGP-5-ADJCHANGE: neighbor 10.10.10.25 Up
-*May 11 18:59:22.453: %SYS-5-CONFIG_I: Configured from console by john on vty0 (192.168.31.1)
-*May 11 18:59:24.636: %SYS-5-CONFIG_I: Configured from console by john on vty0 (192.168.31.1)
-*May 11 18:59:24.769: %BGP-5-ADJCHANGE: neighbor 10.10.10.22 Up
-*May 11 18:59:26.379: %BGP-5-ADJCHANGE: neighbor 10.10.10.27 Up
-*May 11 18:59:26.724: %SYS-5-CONFIG_I: Configured from console by john on vty0 (192.168.31.1)
+-CONFIG_I: Configured from console by john on vty0 (192.168.31.1)
 *May 11 18:59:26.823: %BGP-5-ADJCHANGE: neighbor 10.10.10.26 Up
 *May 11 18:59:26.829: %BGP-5-ADJCHANGE: neighbor 10.10.10.23 Up
 *May 11 18:59:28.922: %SYS-5-CONFIG_I: Configured from console by john on vty0 (192.168.31.1)
@@ -72,3 +66,7 @@ Log Buffer (4096 bytes):
 *May 11 19:00:03.487: %BGP-5-ADJCHANGE: neighbor 10.10.10.47 Up
 *May 11 19:00:03.657: %BGP-5-ADJCHANGE: neighbor 10.10.10.44 Up
 *May 11 19:00:03.744: %BGP-5-ADJCHANGE: neighbor 10.10.10.43 Up
+*May 11 19:40:01.441: %OSPF-5-ADJCHG: Process 1, Nbr 10.10.10.13 on Ethernet0/1 from FULL to DOWN, Neighbor Down: Interface down or detached
+*May 11 19:40:01.441: %OSPF-5-ADJCHG: Process 1, Nbr 10.10.10.36 on Ethernet0/2 from FULL to DOWN, Neighbor Down: Interface down or detached
+*May 11 19:40:01.441: %OSPF-5-ADJCHG: Process 1, Nbr 10.10.10.22 on Ethernet0/3 from FULL to DOWN, Neighbor Down: Interface down or detached
+*May 11 19:40:04.239: %SYS-5-CONFIG_I: Configured from console by console
